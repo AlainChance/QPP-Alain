@@ -1,0 +1,18 @@
+{
+    "num_of_bits": 12240,
+    "num_of_qubits": 8,
+    "num_of_perm_in_pad": 3,
+    "pad_selection_key_size": 6,
+    "opt_level": 1,
+    "resilience_level": 1,
+    "plaintext_file": "Christmas_tree.png",
+    "token_file": "Token_Alain.txt",
+    "trace": 1,
+    "job_trigger": 2000,
+    "print_trigger": 2000,
+    "draw_circuit": "False",
+    "do_sampler": "False",
+    "version": "V0",
+    "len_message": 12758,
+    "len_ciphertext": 102064
+}
