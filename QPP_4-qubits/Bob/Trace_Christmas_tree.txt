@@ -1,0 +1,103 @@
+
+Set n, possible number of quantum states = 2**num_of_qubits: 16
+
+parameters - Backend
+<qiskit_ibm_runtime.fake_provider.backends.manila.fake_manila.FakeManilaV2 object at 0x7fd947dd4e30>
+
+parameters - Secret key file name: Secret_key_4-qubits_Christmas_tree.txt
+
+parameters - Secret key retrieved from file:  111011010000011000110001011100001101100110110001110011101110101100010111010011010111101001010100100001011000000110001010111011001100011010100110000011111101000011000111101001011101101100100101011111001000100011001010111111010011110110000010100100001001001111001101010110111100011110101000001000000011100010110110001000111110011111101110011101101101111111110111001101100111001000101111
+
+parameters - Set bits_in_block = num_of_bits / num_of_perm_in_pad: 64
+
+parameters - Length of key chunks (bits_in_block/num_of_qubits): 16
+QPP_param_file: QPP_param_4-qubits_V0_Christmas_tree.json
+plaintext_file: Christmas_tree.png
+trace: 1
+job_trigger: 10000
+print_trigger: 10000
+draw_circuit: True
+do_sampler: True
+version: V0
+
+service: <QiskitRuntimeService>
+backend: <qiskit_ibm_runtime.fake_provider.backends.manila.fake_manila.FakeManilaV2 object at 0x7fd947dd4e30>
+opt_level, optimisation level for transpile: 2
+resilience_level: 1
+
+None
+
+n, possible number of quantum states: 16
+num_of_bits, classical key length (bit): 384
+bits_in_block: 64
+num_of_qubits: 4
+num_of_perm_in_pad, number of permutations gates in pad: 6
+pad_selection_key_size: 6
+binary_to_ciphertext - Ciphertext file name: ciphertext_Christmas_tree.bin
+
+permutation_pad
+
+permutation pad - Permutation number: 0, Depth of quantum circuit: 183
+
+permutation_pad - permutation number: 0, dictionary:
+{0: '0010', 1: '1000', 2: '0111', 3: '0000', 4: '0011', 5: '1111', 6: '0100', 7: '0110', 8: '1110', 9: '1001', 10: '0001', 11: '1010', 12: '1100', 13: '0101', 14: '1101', 15: '1011'}
+permutation pad - Elapsed time: 0:00:03.487289
+
+permutation pad - Permutation number: 1, Depth of quantum circuit: 176
+
+permutation_pad - permutation number: 1, dictionary:
+{0: '0000', 1: '0111', 2: '0100', 3: '1010', 4: '0010', 5: '1111', 6: '1001', 7: '1011', 8: '1101', 9: '0101', 10: '0110', 11: '0001', 12: '1000', 13: '0011', 14: '1110', 15: '1100'}
+permutation pad - Elapsed time: 0:00:06.419266
+
+permutation pad - Permutation number: 2, Depth of quantum circuit: 186
+
+permutation_pad - permutation number: 2, dictionary:
+{0: '0100', 1: '0011', 2: '1010', 3: '1100', 4: '1001', 5: '0101', 6: '0001', 7: '0000', 8: '1011', 9: '0111', 10: '1110', 11: '1111', 12: '1000', 13: '0110', 14: '0010', 15: '1101'}
+permutation pad - Elapsed time: 0:00:09.451514
+
+permutation pad - Permutation number: 3, Depth of quantum circuit: 176
+
+permutation_pad - permutation number: 3, dictionary:
+{0: '1101', 1: '0100', 2: '1010', 3: '1111', 4: '1110', 5: '1000', 6: '0011', 7: '1100', 8: '1011', 9: '0000', 10: '0101', 11: '0010', 12: '0001', 13: '0111', 14: '1001', 15: '0110'}
+permutation pad - Elapsed time: 0:00:12.440915
+
+permutation pad - Permutation number: 4, Depth of quantum circuit: 188
+
+permutation_pad - permutation number: 4, dictionary:
+{0: '1001', 1: '0110', 2: '1110', 3: '1000', 4: '1011', 5: '1100', 6: '1111', 7: '0101', 8: '0111', 9: '0000', 10: '1101', 11: '1010', 12: '0100', 13: '0001', 14: '0010', 15: '0011'}
+permutation pad - Elapsed time: 0:00:15.632364
+
+permutation pad - Permutation number: 5, Depth of quantum circuit: 185
+
+permutation_pad - permutation number: 5, dictionary:
+{0: '0000', 1: '0100', 2: '1010', 3: '0010', 4: '1000', 5: '1110', 6: '0101', 7: '0001', 8: '1111', 9: '1100', 10: '0011', 11: '0110', 12: '0111', 13: '1011', 14: '1101', 15: '1001'}
+permutation pad - Elapsed time: 0:00:18.513046
+permutation pad - Length of Permutation_Pad: 6
+
+
+decrypt - Length of cipher text in bits retrieved from param dictionary: 102064
+
+decrypt - First 192 bits in ciphertext string
+101111001101101010000101000100010000110010001101100000010101011011000010011010101100101101010100011111110111011010010101100011101111110100100001100110000001011011001101001010011010100101110010
+decrypt - Length of ciphertext:  102064
+decrypt - Remainder of dividing (Length of cipher chunks) by (Job trigger): 5516
+
+decrypt - x : 9999,  Permutation_Pad[2], State vector: 0000, Most frequent: 0100
+decrypt - Elapsed time for decryption: 0:00:00.001796
+decrypt - x : 19999,  Permutation_Pad[1], State vector: 0101, Most frequent: 1111
+decrypt - Elapsed time for decryption: 0:00:00.003506
+
+decrypt - Length of decrypted message in bits: 102064
+
+decrypt - Elapsed time for decryption of ciphertext: 0:00:00.023320
+bitstring_to_file - Decrypted file name: Decrypted_Christmas_tree.png
+
+bitstring_to_file - decrypted message in bytes trimmed to true length: 12758
+
+bitstring_to_file - Length of image in bytes: 12758
+
+bitstring_to_file - First 192 bits in decrypted message, shown grouped by 8 bits
+10001001 01010000 01001110 01000111 00001101 00001010 00011010 00001010 00000000 00000000 00000000 00001101 01001001 01001000 01000100 01010010 00000000 00000000 00000010 01010001 00000000 000
+
+bitstring_to_file - Last 192 bits in decrypted message, shown grouped by 8 bits
+111 00001111 01010110 10111101 01110011 00110101 11111000 01110111 11011000 10101001 00000000 00000000 00000000 00000000 01001001 01000101 01001110 01000100 10101110 01000010 01100000 10000010
