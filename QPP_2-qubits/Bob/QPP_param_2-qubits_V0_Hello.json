@@ -1,0 +1,18 @@
+{
+    "num_of_bits": 448,
+    "num_of_qubits": 2,
+    "num_of_perm_in_pad": 56,
+    "pad_selection_key_size": 6,
+    "opt_level": 2,
+    "resilience_level": 1,
+    "plaintext_file": "Hello.txt",
+    "token_file": "Token_Alain.txt",
+    "trace": 1,
+    "job_trigger": 10,
+    "print_trigger": 10,
+    "draw_circuit": "True",
+    "do_sampler": "True",
+    "version": "V0",
+    "len_message": 8,
+    "len_ciphertext": 128
+}
