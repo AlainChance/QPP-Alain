@@ -1,0 +1,22 @@
+{
+    "num_of_bits": 27594,
+    "num_of_qubits": 9,
+    "num_of_perm_in_pad": 3,
+    "pad_selection_key_size": 6,
+    "opt_level": 1,
+    "resilience_level": 1,
+    "plaintext_file": "le-mont-saint-michel-normandy-france.jpg",
+    "token_file": "Token.txt",
+    "CRN_file": "CRN.txt",
+    "trace": 1,
+    "job_trigger": 143710,
+    "print_trigger": 143710,
+    "draw_circuit": "True",
+    "do_sampler": "True",
+    "backend_name": "AerSimulator noiseless",
+    "version": "V0",
+    "len_message": 1435421,
+    "len_ciphertext": 11483370,
+    "poll_interval": 5,
+    "timeout": 600
+}

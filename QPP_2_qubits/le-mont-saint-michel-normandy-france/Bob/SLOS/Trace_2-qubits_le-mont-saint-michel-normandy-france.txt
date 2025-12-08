@@ -1,0 +1,359 @@
+
+Version set to: V0
+
+Set n, possible number of quantum states = 2**num_of_qubits: 4
+
+parameters - Secret key file name: Secret_key_2-qubits_le-mont-saint-michel-normandy-france.txt
+
+parameters - Secret key retrieved from file:  0001010110110010001101010010011101001000010000001001001000001110000011010010000100101010010110011000100011010011100111111001011000011011000101100100101101111111011110111101010101011111010011000010001011110011010111000000111100001010010000110011101000000010101111001001110011101000000001000000110100100011110100010001010100010010101100111101110001100110111110001100110101001010101110001101111111000101000100111101011000011110010000010110110010100001
+
+parameters - Set bits_in_block = num_of_bits / num_of_perm_in_pad: 8
+
+parameters - Length of key chunks (bits_in_block/num_of_qubits): 4
+QPP_param_file: QPP_param.json
+plaintext_file: le-mont-saint-michel-normandy-france.jpg
+trace: 1
+job_trigger: 143710
+print_trigger: 143710
+draw_circuit: True
+version: V0
+backend: None
+opt_level, optimisation level for transpile: 1
+resilience_level: 1
+n, possible number of quantum states: 4
+num_of_bits, classical key length (bit): 448
+bits_in_block: 8
+num_of_qubits: 2
+num_of_perm_in_pad, number of permutations gates in pad: 56
+pad_selection_key_size: 6
+backend_name: SLOS
+binary_to_ciphertext - Ciphertext file name: ciphertext_le-mont-saint-michel-normandy-france.bin
+
+permutation_pad - permutation number: 0, dictionary:
+{0: '00', 1: '10', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.012039
+
+permutation_pad - permutation number: 1, dictionary:
+{0: '11', 1: '10', 2: '00', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.018910
+
+permutation_pad - permutation number: 2, dictionary:
+{0: '00', 1: '01', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.025781
+
+permutation_pad - permutation number: 3, dictionary:
+{0: '00', 1: '01', 2: '10', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.032516
+
+permutation_pad - permutation number: 4, dictionary:
+{0: '01', 1: '11', 2: '10', 3: '00'}
+permutation pad - Elapsed time: 0:00:00.039083
+
+permutation_pad - permutation number: 5, dictionary:
+{0: '01', 1: '10', 2: '11', 3: '00'}
+permutation pad - Elapsed time: 0:00:00.045839
+
+permutation_pad - permutation number: 6, dictionary:
+{0: '11', 1: '01', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.051934
+
+permutation_pad - permutation number: 7, dictionary:
+{0: '01', 1: '00', 2: '10', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.057868
+
+permutation_pad - permutation number: 8, dictionary:
+{0: '11', 1: '00', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.064123
+
+permutation_pad - permutation number: 9, dictionary:
+{0: '10', 1: '00', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.070606
+
+permutation_pad - permutation number: 10, dictionary:
+{0: '00', 1: '11', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.076664
+
+permutation_pad - permutation number: 11, dictionary:
+{0: '00', 1: '11', 2: '10', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.082752
+
+permutation_pad - permutation number: 12, dictionary:
+{0: '01', 1: '11', 2: '10', 3: '00'}
+permutation pad - Elapsed time: 0:00:00.088912
+
+permutation_pad - permutation number: 13, dictionary:
+{0: '10', 1: '01', 2: '00', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.094940
+
+permutation_pad - permutation number: 14, dictionary:
+{0: '00', 1: '01', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.100633
+
+permutation_pad - permutation number: 15, dictionary:
+{0: '00', 1: '11', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.106698
+
+permutation_pad - permutation number: 16, dictionary:
+{0: '00', 1: '01', 2: '10', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.112761
+
+permutation_pad - permutation number: 17, dictionary:
+{0: '00', 1: '11', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.118811
+
+permutation_pad - permutation number: 18, dictionary:
+{0: '01', 1: '00', 2: '10', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.125320
+
+permutation_pad - permutation number: 19, dictionary:
+{0: '00', 1: '10', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.131415
+
+permutation_pad - permutation number: 20, dictionary:
+{0: '00', 1: '11', 2: '10', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.151166
+
+permutation_pad - permutation number: 21, dictionary:
+{0: '00', 1: '10', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.161160
+
+permutation_pad - permutation number: 22, dictionary:
+{0: '00', 1: '01', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.174640
+
+permutation_pad - permutation number: 23, dictionary:
+{0: '01', 1: '11', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.183764
+
+permutation_pad - permutation number: 24, dictionary:
+{0: '11', 1: '00', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.189828
+
+permutation_pad - permutation number: 25, dictionary:
+{0: '10', 1: '11', 2: '00', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.201885
+
+permutation_pad - permutation number: 26, dictionary:
+{0: '11', 1: '01', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.209984
+
+permutation_pad - permutation number: 27, dictionary:
+{0: '01', 1: '00', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.216372
+
+permutation_pad - permutation number: 28, dictionary:
+{0: '01', 1: '00', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.223197
+
+permutation_pad - permutation number: 29, dictionary:
+{0: '01', 1: '10', 2: '00', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.229818
+
+permutation_pad - permutation number: 30, dictionary:
+{0: '00', 1: '10', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.237237
+
+permutation_pad - permutation number: 31, dictionary:
+{0: '01', 1: '11', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.243217
+
+permutation_pad - permutation number: 32, dictionary:
+{0: '11', 1: '10', 2: '00', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.250032
+
+permutation_pad - permutation number: 33, dictionary:
+{0: '11', 1: '01', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.257098
+
+permutation_pad - permutation number: 34, dictionary:
+{0: '11', 1: '10', 2: '01', 3: '00'}
+permutation pad - Elapsed time: 0:00:00.262861
+
+permutation_pad - permutation number: 35, dictionary:
+{0: '10', 1: '11', 2: '01', 3: '00'}
+permutation pad - Elapsed time: 0:00:00.268964
+
+permutation_pad - permutation number: 36, dictionary:
+{0: '11', 1: '00', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.275120
+
+permutation_pad - permutation number: 37, dictionary:
+{0: '10', 1: '00', 2: '01', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.281054
+
+permutation_pad - permutation number: 38, dictionary:
+{0: '10', 1: '11', 2: '00', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.287499
+
+permutation_pad - permutation number: 39, dictionary:
+{0: '00', 1: '10', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.294047
+
+permutation_pad - permutation number: 40, dictionary:
+{0: '11', 1: '01', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.300278
+
+permutation_pad - permutation number: 41, dictionary:
+{0: '10', 1: '11', 2: '00', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.306319
+
+permutation_pad - permutation number: 42, dictionary:
+{0: '11', 1: '01', 2: '00', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.312281
+
+permutation_pad - permutation number: 43, dictionary:
+{0: '00', 1: '01', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.318393
+
+permutation_pad - permutation number: 44, dictionary:
+{0: '11', 1: '00', 2: '10', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.324402
+
+permutation_pad - permutation number: 45, dictionary:
+{0: '11', 1: '00', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.331201
+
+permutation_pad - permutation number: 46, dictionary:
+{0: '01', 1: '00', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.338797
+
+permutation_pad - permutation number: 47, dictionary:
+{0: '11', 1: '00', 2: '10', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.344759
+
+permutation_pad - permutation number: 48, dictionary:
+{0: '00', 1: '01', 2: '11', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.350568
+
+permutation_pad - permutation number: 49, dictionary:
+{0: '10', 1: '00', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.356279
+
+permutation_pad - permutation number: 50, dictionary:
+{0: '10', 1: '01', 2: '00', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.361925
+
+permutation_pad - permutation number: 51, dictionary:
+{0: '00', 1: '11', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.368126
+
+permutation_pad - permutation number: 52, dictionary:
+{0: '00', 1: '01', 2: '10', 3: '11'}
+permutation pad - Elapsed time: 0:00:00.373882
+
+permutation_pad - permutation number: 53, dictionary:
+{0: '11', 1: '10', 2: '00', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.513666
+
+permutation_pad - permutation number: 54, dictionary:
+{0: '11', 1: '00', 2: '01', 3: '10'}
+permutation pad - Elapsed time: 0:00:00.520509
+
+permutation_pad - permutation number: 55, dictionary:
+{0: '10', 1: '00', 2: '11', 3: '01'}
+permutation pad - Elapsed time: 0:00:00.527555
+
+permutation_pad
+permutation pad - Length of Permutation_Pad: 56
+
+
+decrypt - Length of cipher text in bits retrieved from param dictionary: 11483368
+
+decrypt - First 192 bits in ciphertext string
+101111011110110100100100000111011010111010010100111101001100011110010101011111110001111011010111100111101010000100011010111101100100101010011100000001100000001010101101100011110011010010000111
+decrypt - Length of ciphertext:  11483368
+decrypt - Remainder of dividing (Length of cipher chunks) by (Job trigger): 136994
+
+decrypt - x : 143709,  Permutation_Pad[32], State vector: 11, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.016888
+decrypt - x : 287419,  Permutation_Pad[31], State vector: 01, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.033351
+decrypt - x : 431129,  Permutation_Pad[21], State vector: 10, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.051603
+decrypt - x : 574839,  Permutation_Pad[3], State vector: 11, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.071301
+decrypt - x : 718549,  Permutation_Pad[18], State vector: 11, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.089689
+decrypt - x : 862259,  Permutation_Pad[0], State vector: 10, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.107744
+decrypt - x : 1005969,  Permutation_Pad[33], State vector: 10, Most frequent: 00
+decrypt - Elapsed time for decryption: 0:00:00.126554
+decrypt - x : 1149679,  Permutation_Pad[9], State vector: 10, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.143627
+decrypt - x : 1293389,  Permutation_Pad[41], State vector: 00, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.161662
+decrypt - x : 1437099,  Permutation_Pad[18], State vector: 10, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.184235
+decrypt - x : 1580809,  Permutation_Pad[13], State vector: 10, Most frequent: 00
+decrypt - Elapsed time for decryption: 0:00:00.201674
+decrypt - x : 1724519,  Permutation_Pad[39], State vector: 11, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.219136
+decrypt - x : 1868229,  Permutation_Pad[10], State vector: 01, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.238117
+decrypt - x : 2011939,  Permutation_Pad[55], State vector: 01, Most frequent: 00
+decrypt - Elapsed time for decryption: 0:00:00.255634
+decrypt - x : 2155649,  Permutation_Pad[1], State vector: 01, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.274032
+decrypt - x : 2299359,  Permutation_Pad[32], State vector: 00, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.291420
+decrypt - x : 2443069,  Permutation_Pad[31], State vector: 11, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.308545
+decrypt - x : 2586779,  Permutation_Pad[21], State vector: 11, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.326253
+decrypt - x : 2730489,  Permutation_Pad[3], State vector: 01, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.343547
+decrypt - x : 2874199,  Permutation_Pad[18], State vector: 10, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.360384
+decrypt - x : 3017909,  Permutation_Pad[0], State vector: 01, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.377406
+decrypt - x : 3161619,  Permutation_Pad[33], State vector: 01, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.395476
+decrypt - x : 3305329,  Permutation_Pad[9], State vector: 10, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.413352
+decrypt - x : 3449039,  Permutation_Pad[41], State vector: 00, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.432379
+decrypt - x : 3592749,  Permutation_Pad[18], State vector: 11, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.453806
+decrypt - x : 3736459,  Permutation_Pad[13], State vector: 01, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.471525
+decrypt - x : 3880169,  Permutation_Pad[39], State vector: 01, Most frequent: 10
+decrypt - Elapsed time for decryption: 0:00:00.488857
+decrypt - x : 4023879,  Permutation_Pad[10], State vector: 01, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.505788
+decrypt - x : 4167589,  Permutation_Pad[55], State vector: 11, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.522809
+decrypt - x : 4311299,  Permutation_Pad[1], State vector: 10, Most frequent: 00
+decrypt - Elapsed time for decryption: 0:00:00.539737
+decrypt - x : 4455009,  Permutation_Pad[32], State vector: 00, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.556890
+decrypt - x : 4598719,  Permutation_Pad[31], State vector: 00, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.574291
+decrypt - x : 4742429,  Permutation_Pad[21], State vector: 00, Most frequent: 00
+decrypt - Elapsed time for decryption: 0:00:00.593409
+decrypt - x : 4886139,  Permutation_Pad[3], State vector: 11, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.612432
+decrypt - x : 5029849,  Permutation_Pad[18], State vector: 01, Most frequent: 00
+decrypt - Elapsed time for decryption: 0:00:00.629595
+decrypt - x : 5173559,  Permutation_Pad[0], State vector: 10, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.647384
+decrypt - x : 5317269,  Permutation_Pad[33], State vector: 00, Most frequent: 11
+decrypt - Elapsed time for decryption: 0:00:00.664501
+decrypt - x : 5460979,  Permutation_Pad[9], State vector: 11, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.683975
+decrypt - x : 5604689,  Permutation_Pad[41], State vector: 11, Most frequent: 01
+decrypt - Elapsed time for decryption: 0:00:00.701256
+
+decrypt - Length of decrypted message in bits: 11483368
+
+decrypt - Elapsed time for decryption of ciphertext: 0:00:02.282853
+bitstring_to_file - Decrypted file name: Decrypted_le-mont-saint-michel-normandy-france.jpg
+
+bitstring_to_file - decrypted message in bytes trimmed to true length: 1435421
+
+bitstring_to_file - Length of image in bytes: 1435421
+
+bitstring_to_file - First 192 bits in decrypted message, shown grouped by 8 bits
+11111111 11011000 11111111 11100000 00000000 00010000 01001010 01000110 01001001 01000110 00000000 00000001 00000001 00000000 00000000 00000001 00000000 00000001 00000000 00000000 11111111 110
+
+bitstring_to_file - Last 192 bits in decrypted message, shown grouped by 8 bits
+011 01110001 00000110 10011010 01110011 11001110 00101000 10100010 10010010 00000110 00011100 11110100 00110100 11010010 00000111 01111110 11010100 01010001 01001100 00010001 11111111 11011001

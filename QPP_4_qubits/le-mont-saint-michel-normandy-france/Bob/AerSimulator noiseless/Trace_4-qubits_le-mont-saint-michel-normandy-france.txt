@@ -1,0 +1,97 @@
+
+Version set to: V1
+
+Set n, possible number of quantum states = 2**num_of_qubits: 16
+
+parameters - Secret key file name: Secret_key_4-qubits_le-mont-saint-michel-normandy-france.txt
+
+parameters - Secret key retrieved from file:  010011101111100111100110101011000010001111110110101111010100001111001100011010010000010111110010000010010101010001100001101000111010100111110111111111100100000000011011000011000110010101011110101001010010100101011001110101010100101011011111001010011000101010001001101100000111001101101000110100000001010111000100101011110000110010011100000100111100111000001001011111000001110111001010
+
+parameters - Set bits_in_block = num_of_bits / num_of_perm_in_pad: 64
+
+parameters - Length of key chunks (bits_in_block/num_of_qubits): 16
+QPP_param_file: QPP_param.json
+plaintext_file: le-mont-saint-michel-normandy-france.jpg
+trace: 1
+job_trigger: 143710
+print_trigger: 143710
+draw_circuit: True
+version: V1
+backend: None
+opt_level, optimisation level for transpile: 1
+resilience_level: 1
+n, possible number of quantum states: 16
+num_of_bits, classical key length (bit): 384
+bits_in_block: 64
+num_of_qubits: 4
+num_of_perm_in_pad, number of permutations gates in pad: 6
+pad_selection_key_size: 6
+backend_name: AerSimulator noiseless
+
+Using AerSimulator with method statevector and noiseless
+binary_to_ciphertext - Ciphertext file name: ciphertext_le-mont-saint-michel-normandy-france.bin
+
+permutation_pad
+permutation pad - Length of Permutation_Pad: 6
+
+
+decrypt - Length of cipher text in bits retrieved from param dictionary: 11483368
+
+decrypt - First 192 bits in ciphertext string
+000010111100100011011011100010101001011100011011110110001000010110010111100101100001001001100010000011110110100011011110101110001111100110010001111001001011100010010100110100110001101011010111
+decrypt - Length of ciphertext:  11483368
+decrypt - Remainder of dividing (Length of cipher chunks) by (Job trigger): 140352
+
+decrypt - x : 143709,  Permutation_Pad[0], State vector: 1010, Most frequent: 1100
+decrypt - Elapsed time for decryption: 0:00:00.016632
+decrypt - x : 287419,  Permutation_Pad[3], State vector: 1110, Most frequent: 1000
+decrypt - Elapsed time for decryption: 0:00:00.032615
+decrypt - x : 431129,  Permutation_Pad[0], State vector: 0110, Most frequent: 0101
+decrypt - Elapsed time for decryption: 0:00:00.048854
+decrypt - x : 574839,  Permutation_Pad[4], State vector: 1001, Most frequent: 1110
+decrypt - Elapsed time for decryption: 0:00:00.065060
+decrypt - x : 718549,  Permutation_Pad[4], State vector: 0111, Most frequent: 1101
+decrypt - Elapsed time for decryption: 0:00:00.082286
+decrypt - x : 862259,  Permutation_Pad[4], State vector: 1011, Most frequent: 0010
+decrypt - Elapsed time for decryption: 0:00:00.098473
+decrypt - x : 1005969,  Permutation_Pad[3], State vector: 0110, Most frequent: 1111
+decrypt - Elapsed time for decryption: 0:00:00.115051
+decrypt - x : 1149679,  Permutation_Pad[4], State vector: 0111, Most frequent: 1101
+decrypt - Elapsed time for decryption: 0:00:00.132370
+decrypt - x : 1293389,  Permutation_Pad[4], State vector: 1000, Most frequent: 0111
+decrypt - Elapsed time for decryption: 0:00:00.149466
+decrypt - x : 1437099,  Permutation_Pad[3], State vector: 1110, Most frequent: 1000
+decrypt - Elapsed time for decryption: 0:00:00.166599
+decrypt - x : 1580809,  Permutation_Pad[2], State vector: 0011, Most frequent: 1010
+decrypt - Elapsed time for decryption: 0:00:00.184118
+decrypt - x : 1724519,  Permutation_Pad[1], State vector: 1010, Most frequent: 0101
+decrypt - Elapsed time for decryption: 0:00:00.204116
+decrypt - x : 1868229,  Permutation_Pad[2], State vector: 1111, Most frequent: 0010
+decrypt - Elapsed time for decryption: 0:00:00.222704
+decrypt - x : 2011939,  Permutation_Pad[1], State vector: 1000, Most frequent: 0000
+decrypt - Elapsed time for decryption: 0:00:00.241467
+decrypt - x : 2155649,  Permutation_Pad[5], State vector: 0100, Most frequent: 1110
+decrypt - Elapsed time for decryption: 0:00:00.269415
+decrypt - x : 2299359,  Permutation_Pad[0], State vector: 0010, Most frequent: 1010
+decrypt - Elapsed time for decryption: 0:00:00.288092
+decrypt - x : 2443069,  Permutation_Pad[1], State vector: 1011, Most frequent: 0100
+decrypt - Elapsed time for decryption: 0:00:00.306817
+decrypt - x : 2586779,  Permutation_Pad[3], State vector: 0011, Most frequent: 0111
+decrypt - Elapsed time for decryption: 0:00:00.325887
+decrypt - x : 2730489,  Permutation_Pad[0], State vector: 0000, Most frequent: 0000
+decrypt - Elapsed time for decryption: 0:00:00.343323
+
+decrypt - Length of decrypted message in bits: 11483368
+
+decrypt - Elapsed time for decryption of ciphertext: 0:00:01.803316
+bitstring_to_file - Decrypted file name: Decrypted_le-mont-saint-michel-normandy-france.jpg
+
+bitstring_to_file - decrypted message in bytes trimmed to true length: 1435421
+
+bitstring_to_file - Length of image in bytes: 1435421
+
+bitstring_to_file - First 192 bits in decrypted message, shown grouped by 8 bits
+11111111 11011000 11111111 11100000 00000000 00010000 01001010 01000110 01001001 01000110 00000000 00000001 00000001 00000000 00000000 00000001 00000000 00000001 00000000 00000000 11111111 110
+
+bitstring_to_file - Last 192 bits in decrypted message, shown grouped by 8 bits
+011 01110001 00000110 10011010 01110011 11001110 00101000 10100010 10010010 00000110 00011100 11110100 00110100 11010010 00000111 01111110 11010100 01010001 01001100 00010001 11111111 11011001
